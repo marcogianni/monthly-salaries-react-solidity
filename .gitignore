@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+frontend-react/node_modules
+frontend-react/.pnp
+.pnp.js
+
+# testing
+frontend-react/coverage
+
+# production
+frontend-react/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+frontend-react/.DS_Store
+frontend-react/.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+hardhat-project/node_modules
+hardhat-project/.env
+
+#Hardhat files
+hardhat-project/cache
+hardhat-project/artifacts

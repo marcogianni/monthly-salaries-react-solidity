@@ -1,0 +1,165 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [],
+  "impls": {
+    "2042f17ff72048f10fccd00aebe5279a74543d4c49a1d9f5e6ce52f5983ff679": {
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0xca7169ba92141c3a41344aeb4e6d3048eb72a220ad9d2f7575b62b6a34c05ef0",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:21"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:26"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:214"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:80"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:30"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:21"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:77"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "_status",
+            "type": "t_uint256",
+            "src": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:37"
+          },
+          {
+            "contract": "ReentrancyGuardUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol:67"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "_paused",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:28"
+          },
+          {
+            "contract": "PausableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol:96"
+          },
+          {
+            "contract": "Salaries",
+            "label": "liquidityProviderAddressParam",
+            "type": "t_struct(AddressParam)1630_storage",
+            "src": "contracts/Salaries.sol:52"
+          },
+          {
+            "contract": "Salaries",
+            "label": "token",
+            "type": "t_contract(IERC20)1287",
+            "src": "contracts/Salaries.sol:54"
+          },
+          {
+            "contract": "Salaries",
+            "label": "salaries",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts/Salaries.sol:64"
+          },
+          {
+            "contract": "Salaries",
+            "label": "dates",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts/Salaries.sol:75"
+          },
+          {
+            "contract": "Salaries",
+            "label": "salaryChangeDates",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts/Salaries.sol:76"
+          },
+          {
+            "contract": "Salaries",
+            "label": "removalDates",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts/Salaries.sol:77"
+          },
+          {
+            "contract": "Salaries",
+            "label": "totalEmployees",
+            "type": "t_uint16",
+            "src": "contracts/Salaries.sol:78"
+          }
+        ],
+        "types": {
+          "t_struct(AddressParam)1630_storage": {
+            "label": "struct Salaries.AddressParam",
+            "members": [
+              {
+                "label": "oldValue",
+                "type": "t_address"
+              },
+              {
+                "label": "newValue",
+                "type": "t_address"
+              },
+              {
+                "label": "timestamp",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_contract(IERC20)1287": {
+            "label": "contract IERC20"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_uint16": {
+            "label": "uint16"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  }
+}
